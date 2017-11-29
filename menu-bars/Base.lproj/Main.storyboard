@@ -31,14 +31,28 @@
                                                 <action selector="cameraButton:" destination="BYZ-38-t0r" id="Rtp-V5-eFC"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Hi!" id="2aF-yd-Rjs"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWW-Oe-aOh">
+                                <rect key="frame" x="0.0" y="629" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="reply" id="tDE-hf-ATQ"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="0Yi-HI-iYv"/>
+                                    <barButtonItem systemItem="compose" id="c04-nm-zkx"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="rrr-1a-8hR"/>
+                                    <barButtonItem systemItem="trash" id="hHw-fR-Qwl"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dWW-Oe-aOh" secondAttribute="bottom" constant="-6" id="8dW-dB-zbo"/>
                             <constraint firstItem="SlP-Hy-rdr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F0h-Tb-uZD"/>
+                            <constraint firstItem="dWW-Oe-aOh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ztt-ez-gmS"/>
                             <constraint firstItem="SlP-Hy-rdr" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="cMj-3z-Hdf"/>
+                            <constraint firstItem="dWW-Oe-aOh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="rH3-5U-ges"/>
                             <constraint firstItem="SlP-Hy-rdr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="w93-eA-GXZ"/>
                         </constraints>
                     </view>
